@@ -2,7 +2,10 @@ const container = document.querySelector('#projects-container');
 const projects = [
   { id: 1, title: "Сайт-візитка", tech: "HTML/CSS" },
   { id: 2, title: "Todo App", tech: "JavaScript" },
-  { id: 3, title: "Портфоліо", tech: "HTML/CSS/JS" }
+  { id: 3, title: "Портфоліо", tech: "HTML/CSS/JS" },
+  { id: 1, title: "Сайт-візитка", tech: "HTML/CSS" },
+  { id: 2, title: "Todo App", tech: "JavaScript" },
+  { id: 3, title: "Портфоліо", tech: "HTML/CSS/JS" },
 ];
 
 function createProjectCard(project) {
